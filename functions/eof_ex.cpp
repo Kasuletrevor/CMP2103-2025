@@ -13,7 +13,7 @@ int main()
         cin >> num;
         sum += num;
 
-    } while (!cin.eof());
+    } while (cin);
 
     cout << "Sum is " << sum << endl;
 
