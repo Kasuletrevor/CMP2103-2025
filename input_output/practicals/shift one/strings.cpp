@@ -5,17 +5,21 @@ using namespace std;
 
 int main()
 {
-    // get name using cin
+    // get name using getline
     string firstname;
     string lastname;
 
     cout << "Enter your first name: ";
-    cin >> firstname;
+    getline(cin, firstname);
 
     cout << "Enter your last name: ";
-    cin >> lastname;
+    getline(cin, lastname);
 
     cout << "my name is " << firstname << " " << lastname << endl;
+
+    string fullname = firstname + " " + lastname;
+
+    cout << "my full name is " << fullname << endl;
 
     return 0;
 }
