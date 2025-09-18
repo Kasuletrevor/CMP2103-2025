@@ -17,6 +17,7 @@ int main()
 
     cout << "my name is " << firstname << " " << lastname << endl;
 
+    // concatenate first and last name
     string fullname = firstname + " " + lastname;
 
     cout << "my full name is " << fullname << endl;
